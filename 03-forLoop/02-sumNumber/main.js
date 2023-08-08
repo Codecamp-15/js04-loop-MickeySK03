@@ -4,21 +4,14 @@ let sumOdd = 0;
 let sumEvenSquare = 0;
 let sumOddSquare = 0;
 for(i=1;i<=100;i++){
-    //console.log(i);
     sum += i;
     if(i%2===0){
-        // console.log(i);
         sumEven += i;
         sumEvenSquare += i*i; //i**2 คือ i ยกกำลัง2
     }
     if (i%3===0){
-        // odd +=i;
         sumOddSquare += i*i;
     }
-    // else if(i%2) {
-    //     //    console.log(i);
-    //     odd += i;
-    // }
     sumOdd = sum-sumEven;
     
 }
