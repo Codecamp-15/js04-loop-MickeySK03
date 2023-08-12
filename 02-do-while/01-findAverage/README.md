@@ -10,7 +10,7 @@ IF number
     ADD number to sum
     ADD 1 to count
     BACK TO LINE 7 
-ELSE 
+ELSE
     PRINT sum
     PRINT average
 */ 
